@@ -1,0 +1,10 @@
+Strategies {
+    everyMinute : "0 * * * * ?"
+    everyHour   : "0 0 * * * ?"
+    everyDay    : "0 0 0 * * ?"
+}
+
+Items {
+     /* Formato group*, item, * all items*/
+ gTemperatura*, avgTemperatura*, Temp*, avgLuminosita*, sumPotenza*, sumEnergia*, gPotenza*, gEnergia*, gUmidita* : strategy =  everyMinute, everyChange, restoreOnStartup
+}
