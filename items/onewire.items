@@ -1,0 +1,1 @@
+String onewiretemp1Value "Temperatura [%s °C]" <temperature> {channel="exec:command:onewiretemp1:output"}

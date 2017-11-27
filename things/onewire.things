@@ -1,0 +1,3 @@
+exec:command:onewiretemp1 [command="bash /etc/openhab2/scripts/onewiretemp.sh 28-000006c45074", interval=15, timeout=5, autorun=false]
+
+
