@@ -1,0 +1,30 @@
+ sitemap cm3home_nethome label="Benvenuto in NetHome" 
+{
+	Frame label=Meteo
+	{
+			
+		Text label="Meteo attuale" icon=sun_clouds
+		{
+				Text item=Temperature label="Temperatura esterna attuale"	
+				Text item=Station
+				Text item=Temp_Min0  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Temp_Max0  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Humidity
+				Text item=Pressure
+				Text item=Condition0
+				Text item=Wind_Speed
+		
+		 }
+		 
+	 
+		Text label="Meteo previsioni per domani" icon=sun_clouds
+		{
+				Text item=Temp_Min1  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Temp_Max1  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]	
+				Text item=Condition1
+		 }
+		
+ }
+}
+
+
